@@ -13,16 +13,16 @@ public class Pizza {
     };
 
     //конструктор на получение ссыллки
-    private Pizza (String name, int imageRecourceId){
+    private Pizza(String name, int imageRecourceId) {
         this.name = name;
         this.imageRecourceId = imageRecourceId;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public int getImageResourceId(){
+    public int getImageResourceId() {
         return imageRecourceId;
     }
 

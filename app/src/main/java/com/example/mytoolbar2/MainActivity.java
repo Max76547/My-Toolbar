@@ -65,22 +65,24 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //метод создает интент и передает его провайдеру действия передачи информации
-    private void setShareActionIntent(String text){
+    private void setShareActionIntent(String text) {
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/plain");
         intent.putExtra(Intent.EXTRA_TEXT, text);
         shareActionProvider.setShareIntent(intent);
     }
 
-//SectionsPagerAdapter необходимо связать с компонентом ViewPager, чтобы последний мог его использовать
+    //SectionsPagerAdapter необходимо связать с компонентом ViewPager, чтобы последний мог его использовать
     private class SectionsPagerAdapter extends FragmentPagerAdapter {
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
         }
+
         @Override
         public int getCount() {
             return 4;
         }
+
         @Override
         public Fragment getItem(int position) {
             switch (position) {
@@ -95,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
             }
             return null;
         }
+
         //Этот метод добавляет текст на вкладки
         @Override
         public CharSequence getPageTitle(int position) {
