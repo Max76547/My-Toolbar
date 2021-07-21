@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">My ToolBar</string>
+    <string name="create_order">Сделать заказ</string>
+    <string name="create_order_title">Сделать заказ</string>
+    <string name="action_share">Share</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_top">Top fragment</string>
+
+    <string-array name="pizzas">
+        <item>Diavolo</item>
+        <item>Funghi</item>
+    </string-array>
+
+    <string-array name="pasta">
+        <item>Spaghetti Bolognese</item>
+        <item>Lasagne</item>
+    </string-array>
+
+    <string-array name="stores">
+        <item>Cambridge</item>
+        <item>Sebastopol</item>
+    </string-array>
+
+    <string name="home_tab">Домой</string>
+    <string name="pizza_tab">Пицца</string>
+    <string name="pasta_tab">Паста</string>
+    <string name="store_tab">История</string>
+
+    <string name="company_name">Bits and Pizzas</string>
+    <string name="restaurant_image">Restaurant image</string>
+    <string name="home_text">Высококлассный паб с расслабляющей сельской атмосферой располагается в живописной деревне Писемор графства Беркшир.
+        Зимними вечерами здесь можно отдохнуть у уютного дровяного камина, а летом выбрать столики на улице и насладиться видом на
+        раскинувшиеся рядом поля — или же выбрать столик в живописном внутреннем дворике, полном цветов.</string>
+
+    <string name="order_name_hint">Введите ваше имя</string>
+    <string name="order_details_hint">Введите ваш заказ</string>
+
+
+</resources>
